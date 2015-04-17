@@ -7,28 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B22F231AE16482001DDB5D /* Synchronized.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C901DE19C8BFDA0042C514 /* Synchronized.framework */; };
+		16B22F291AE164A7001DDB5D /* SynchronizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C901ED19C8BFDA0042C514 /* SynchronizedTests.swift */; };
+		16B22F3A1AE166B2001DDB5D /* Synchronized.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B22F2F1AE166B1001DDB5D /* Synchronized.framework */; };
+		16B22F481AE16740001DDB5D /* SynchronizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C901ED19C8BFDA0042C514 /* SynchronizedTests.swift */; };
+		16B22F491AE167DD001DDB5D /* ObjCSynchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C901F919C8C0E40042C514 /* ObjCSynchronized.m */; };
+		16B22F4A1AE167E1001DDB5D /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C901F719C8C05F0042C514 /* Synchronized.swift */; };
+		16B22F4B1AE167E4001DDB5D /* Synchronized.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C901E319C8BFDA0042C514 /* Synchronized.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16B22F4C1AE167EC001DDB5D /* ObjCSynchronized.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C901FD19C8C1FD0042C514 /* ObjCSynchronized.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78C901E419C8BFDA0042C514 /* Synchronized.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C901E319C8BFDA0042C514 /* Synchronized.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78C901EE19C8BFDA0042C514 /* SynchronizedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C901ED19C8BFDA0042C514 /* SynchronizedTests.swift */; };
 		78C901F819C8C05F0042C514 /* Synchronized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C901F719C8C05F0042C514 /* Synchronized.swift */; };
 		78C901FA19C8C0E40042C514 /* ObjCSynchronized.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C901F919C8C0E40042C514 /* ObjCSynchronized.m */; };
 		78C901FE19C8C1FD0042C514 /* ObjCSynchronized.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C901FD19C8C1FD0042C514 /* ObjCSynchronized.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78C901FF19C8C7090042C514 /* PBXContainerItemProxy */ = {
+		16B22F241AE16482001DDB5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C901D519C8BFDA0042C514 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 78C901DD19C8BFDA0042C514;
-			remoteInfo = Synchronized;
+			remoteInfo = "Synchronized-iOS";
+		};
+		16B22F3B1AE166B2001DDB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C901D519C8BFDA0042C514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B22F2E1AE166B1001DDB5D;
+			remoteInfo = "Synchronized-OSX";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B22F1D1AE16482001DDB5D /* Synchronized-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synchronized-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B22F2F1AE166B1001DDB5D /* Synchronized.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Synchronized.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B22F391AE166B1001DDB5D /* Synchronized-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synchronized-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C901DE19C8BFDA0042C514 /* Synchronized.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Synchronized.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C901E219C8BFDA0042C514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C901E319C8BFDA0042C514 /* Synchronized.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Synchronized.h; sourceTree = "<group>"; };
-		78C901E919C8BFDA0042C514 /* SynchronizedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynchronizedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C901EC19C8BFDA0042C514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C901ED19C8BFDA0042C514 /* SynchronizedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedTests.swift; sourceTree = "<group>"; };
 		78C901F719C8C05F0042C514 /* Synchronized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synchronized.swift; sourceTree = "<group>"; };
@@ -37,14 +53,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78C901DA19C8BFDA0042C514 /* Frameworks */ = {
+		16B22F1A1AE16482001DDB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F231AE16482001DDB5D /* Synchronized.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B22F2B1AE166B1001DDB5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78C901E619C8BFDA0042C514 /* Frameworks */ = {
+		16B22F361AE166B1001DDB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F3A1AE166B2001DDB5D /* Synchronized.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C901DA19C8BFDA0042C514 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				78C901DE19C8BFDA0042C514 /* Synchronized.framework */,
-				78C901E919C8BFDA0042C514 /* SynchronizedTests.xctest */,
+				16B22F1D1AE16482001DDB5D /* Synchronized-iOSTests.xctest */,
+				16B22F2F1AE166B1001DDB5D /* Synchronized.framework */,
+				16B22F391AE166B1001DDB5D /* Synchronized-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +146,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		16B22F2C1AE166B1001DDB5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F4C1AE167EC001DDB5D /* ObjCSynchronized.h in Headers */,
+				16B22F4B1AE167E4001DDB5D /* Synchronized.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78C901DB19C8BFDA0042C514 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,9 +167,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78C901DD19C8BFDA0042C514 /* Synchronized */ = {
+		16B22F1C1AE16482001DDB5D /* Synchronized-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78C901F119C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "Synchronized" */;
+			buildConfigurationList = 16B22F261AE16482001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-iOSTests" */;
+			buildPhases = (
+				16B22F191AE16482001DDB5D /* Sources */,
+				16B22F1A1AE16482001DDB5D /* Frameworks */,
+				16B22F1B1AE16482001DDB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B22F251AE16482001DDB5D /* PBXTargetDependency */,
+			);
+			name = "Synchronized-iOSTests";
+			productName = "Synchronized-iOSTests";
+			productReference = 16B22F1D1AE16482001DDB5D /* Synchronized-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16B22F2E1AE166B1001DDB5D /* Synchronized-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B22F421AE166B2001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-OSX" */;
+			buildPhases = (
+				16B22F2A1AE166B1001DDB5D /* Sources */,
+				16B22F2B1AE166B1001DDB5D /* Frameworks */,
+				16B22F2C1AE166B1001DDB5D /* Headers */,
+				16B22F2D1AE166B1001DDB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Synchronized-OSX";
+			productName = "Synchronized-OSX";
+			productReference = 16B22F2F1AE166B1001DDB5D /* Synchronized.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16B22F381AE166B1001DDB5D /* Synchronized-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B22F451AE166B2001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-OSXTests" */;
+			buildPhases = (
+				16B22F351AE166B1001DDB5D /* Sources */,
+				16B22F361AE166B1001DDB5D /* Frameworks */,
+				16B22F371AE166B1001DDB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B22F3C1AE166B2001DDB5D /* PBXTargetDependency */,
+			);
+			name = "Synchronized-OSXTests";
+			productName = "Synchronized-OSXTests";
+			productReference = 16B22F391AE166B1001DDB5D /* Synchronized-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78C901DD19C8BFDA0042C514 /* Synchronized-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C901F119C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "Synchronized-iOS" */;
 			buildPhases = (
 				78C901D919C8BFDA0042C514 /* Sources */,
 				78C901DA19C8BFDA0042C514 /* Frameworks */,
@@ -137,28 +234,10 @@
 			);
 			dependencies = (
 			);
-			name = Synchronized;
+			name = "Synchronized-iOS";
 			productName = Synchronized;
 			productReference = 78C901DE19C8BFDA0042C514 /* Synchronized.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		78C901E819C8BFDA0042C514 /* SynchronizedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78C901F419C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "SynchronizedTests" */;
-			buildPhases = (
-				78C901E519C8BFDA0042C514 /* Sources */,
-				78C901E619C8BFDA0042C514 /* Frameworks */,
-				78C901E719C8BFDA0042C514 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78C9020019C8C7090042C514 /* PBXTargetDependency */,
-			);
-			name = SynchronizedTests;
-			productName = SynchronizedTests;
-			productReference = 78C901E919C8BFDA0042C514 /* SynchronizedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,10 +248,16 @@
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = ide;
 				TargetAttributes = {
-					78C901DD19C8BFDA0042C514 = {
-						CreatedOnToolsVersion = 6.0;
+					16B22F1C1AE16482001DDB5D = {
+						CreatedOnToolsVersion = 6.3;
 					};
-					78C901E819C8BFDA0042C514 = {
+					16B22F2E1AE166B1001DDB5D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					16B22F381AE166B1001DDB5D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					78C901DD19C8BFDA0042C514 = {
 						CreatedOnToolsVersion = 6.0;
 					};
 				};
@@ -189,21 +274,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78C901DD19C8BFDA0042C514 /* Synchronized */,
-				78C901E819C8BFDA0042C514 /* SynchronizedTests */,
+				78C901DD19C8BFDA0042C514 /* Synchronized-iOS */,
+				16B22F1C1AE16482001DDB5D /* Synchronized-iOSTests */,
+				16B22F2E1AE166B1001DDB5D /* Synchronized-OSX */,
+				16B22F381AE166B1001DDB5D /* Synchronized-OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78C901DC19C8BFDA0042C514 /* Resources */ = {
+		16B22F1B1AE16482001DDB5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78C901E719C8BFDA0042C514 /* Resources */ = {
+		16B22F2D1AE166B1001DDB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B22F371AE166B1001DDB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C901DC19C8BFDA0042C514 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,6 +314,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		16B22F191AE16482001DDB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F291AE164A7001DDB5D /* SynchronizedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B22F2A1AE166B1001DDB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F491AE167DD001DDB5D /* ObjCSynchronized.m in Sources */,
+				16B22F4A1AE167E1001DDB5D /* Synchronized.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B22F351AE166B1001DDB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B22F481AE16740001DDB5D /* SynchronizedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78C901D919C8BFDA0042C514 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,25 +348,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78C901E519C8BFDA0042C514 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78C901EE19C8BFDA0042C514 /* SynchronizedTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		78C9020019C8C7090042C514 /* PBXTargetDependency */ = {
+		16B22F251AE16482001DDB5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78C901DD19C8BFDA0042C514 /* Synchronized */;
-			targetProxy = 78C901FF19C8C7090042C514 /* PBXContainerItemProxy */;
+			target = 78C901DD19C8BFDA0042C514 /* Synchronized-iOS */;
+			targetProxy = 16B22F241AE16482001DDB5D /* PBXContainerItemProxy */;
+		};
+		16B22F3C1AE166B2001DDB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B22F2E1AE166B1001DDB5D /* Synchronized-OSX */;
+			targetProxy = 16B22F3B1AE166B2001DDB5D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		16B22F271AE16482001DDB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SynchronizedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16B22F281AE16482001DDB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SynchronizedTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16B22F431AE166B2001DDB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Synchronized/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Synchronized;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16B22F441AE166B2001DDB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Synchronized/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Synchronized;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		16B22F461AE166B2001DDB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SynchronizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		16B22F471AE166B2001DDB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SynchronizedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		78C901EF19C8BFDA0042C514 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,7 +585,7 @@
 				INFOPLIST_FILE = Synchronized/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Synchronized;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -354,44 +602,38 @@
 				INFOPLIST_FILE = Synchronized/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Synchronized;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		78C901F519C8BFDA0042C514 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SynchronizedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		78C901F619C8BFDA0042C514 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SynchronizedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16B22F261AE16482001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B22F271AE16482001DDB5D /* Debug */,
+				16B22F281AE16482001DDB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16B22F421AE166B2001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B22F431AE166B2001DDB5D /* Debug */,
+				16B22F441AE166B2001DDB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16B22F451AE166B2001DDB5D /* Build configuration list for PBXNativeTarget "Synchronized-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B22F461AE166B2001DDB5D /* Debug */,
+				16B22F471AE166B2001DDB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		78C901D819C8BFDA0042C514 /* Build configuration list for PBXProject "Synchronized" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -401,20 +643,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78C901F119C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "Synchronized" */ = {
+		78C901F119C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "Synchronized-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78C901F219C8BFDA0042C514 /* Debug */,
 				78C901F319C8BFDA0042C514 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78C901F419C8BFDA0042C514 /* Build configuration list for PBXNativeTarget "SynchronizedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78C901F519C8BFDA0042C514 /* Debug */,
-				78C901F619C8BFDA0042C514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

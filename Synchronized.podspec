@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Synchronized"
-  s.version          = "2.0.0"
+  s.version          = "2.0.1"
   s.summary          = "Exposes Objective-C's @synchronized directive to Swift"
   s.description      = <<-DESC
                        A simple way to use Objective-C's `@synchronized`
@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = "James Ide"
   s.source           = { :git => "https://github.com/ide/Synchronized.git", :tag => s.version.to_s }
-  s.platform     = :ios, '8.0'
+  s.ios.deployment_target = "8.0"
+  s.osx.deployment_target = "10.10"
   s.requires_arc = true
   s.source_files = [
     'Synchronized/Synchronized.swift',
